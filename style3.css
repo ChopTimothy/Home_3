@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height:100%;
+    width: 100%;;
+    max-width: 960px;
+    padding: 1.5%;
+}
+#LLL1{
+    background-color:#ebbebe; padding: 10px;
+}
+#LLL2{
+    background-color:#8b95ec; padding: 10px;
+}
+#main-aside-wrapper2 {
+    flex-direction: row;
+    display: flex;
+  }
+  #main-aside-wrapper main, #main-aside-wrapper aside {
+    background-color: #ddd;
+    margin: 10px;
+    padding: 10px;
+  }
+  #main-aside-wrapper aside {
+    flex: 1;
+    order: 1;
+  }
+  #main-aside-wrapper main {
+    flex: 3;
+    order: 2;
+  }
